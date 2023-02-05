@@ -18,9 +18,9 @@ if(!empty($dni) && !empty($nombre) && !empty($apellido) && !empty($direccion) &&
     if($query){
         header("Location: index.php");
     }else{
-        error_log("No insertado");
+        echo("No insertado");
     }
-    
+
 }else{
     echo("Diligencie todos los campos");
 }
